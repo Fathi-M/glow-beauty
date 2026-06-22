@@ -1,0 +1,1078 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glow Beauty Cosmetics</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff8fb;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+h2{
+    color:#c2185b;
+    font-weight:bold;
+}
+
+
+/* Hero Section */
+
+.hero{
+    background: linear-gradient(
+    rgba(255,105,180,0.4),
+    rgba(186,85,211,0.4)),
+    url("https://img.freepik.com/premium-photo/collection-makeup-cosmetics-items-table-with-blue-background_827765-619.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-content{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+    text-shadow:3px 3px 10px rgba(0,0,0,0.5);
+}
+form{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+/* About */
+
+#about{
+    background:#fff0f5;
+}
+
+#about img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+/* Products */
+
+.product-card{
+    height:100%;
+    transition:0.4s;
+}
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+.card-img-top{
+    width:100%;
+    height:250px;
+    object-fit:contain;
+    background:white;
+}
+.skincare-img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+.btn-pink{
+    background: linear-gradient(45deg, #ff4d94, #8a2be2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-pink:hover{
+    background: linear-gradient(45deg, #8a2be2, #ff4d94);
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Footer */
+
+footer{
+    background:#212529;
+    color:white;
+    padding:20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background:#c2185b;">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold" href="#">
+Glow Beauty
+</a>
+
+<button class="navbar-toggler"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#products">Products</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Glow Beauty Cosmetics</h1>
+
+<p class="lead">
+Premium Beauty & Skincare Collection
+</p>
+
+<a href="#products" class="btn btn-pink btn-lg">
+Shop Now
+</a>
+
+</div>
+
+</section>
+
+<!-- About Us -->
+
+<section id="about" class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+About Us
+</h2>
+
+<div class="row align-items-center">
+
+<div class="col-md-6">
+
+<img src="https://static.vecteezy.com/system/resources/previews/029/783/765/non_2x/collection-of-makeup-products-and-brushes-glamorous-beauty-essentials-free-photo.jpg"
+class="img-fluid shadow"
+alt="About Us">
+
+</div>
+
+<div class="col-md-6">
+
+<h3 class="fw-bold">
+Welcome To Glow Beauty Cosmetics
+</h3>
+
+<p class="mt-3">
+Glow Beauty Cosmetics offers premium skincare,
+makeup and beauty products designed to enhance
+your natural beauty and confidence.
+</p>
+
+<p>
+Our collection includes lipsticks, foundations,
+perfumes, serums, face creams, sunscreens and
+many more products crafted with quality and care.
+</p>
+
+<button class="btn btn-pink">
+Explore Products
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Products -->
+
+<section id="products" class="py-5">
+
+<div class="container">
+    <!-- Makeup Products -->
+
+<section class="py-5" bg-vilot>
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+💄 Makeup Products
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://assets.myntassets.com/assets/images/2025/NOVEMBER/6/ZIKbvHA1_dbcd109175bb4620b24c5b8ccdf03ebe.jpg"
+class="card-img-top" alt="lipstick"> 
+<div class="card-body text-center">
+<h5>Lipstick</h5>
+<p class="fw-bold fs-5 text-danger">₹299</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://i5.walmartimages.com/seo/Revlon-ColorStay-Liquid-Foundation-Makeup-Normal-Dry-Skin-SPF-20-392-Sun-Beige-1-fl-oz_2255082c-e7d0-4a0d-8af0-c06a3c8436a5.de16f0782fcb0ec51f0953a429c1d372.jpeg"
+class="card-img-top" alt="foundation">   
+<div class="card-body text-center">
+<h5>Foundation</h5>
+<p class="fw-bold fs-5 text-danger">₹499</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQt6iTjEa5m1S9Q0GV9u698hPiU2XyFM_Fdc3GjNqnBk4fLsZf3c6P84K6rTU8To_obH1ojNCq1HOgG-vBAGYf9Vg0IQ4W4BrewVr6aMHxVX7nA-4IJhCAERA"
+class="card-img-top" alt="eyeliner">
+<div class="card-body text-center">
+<h5>Eyeliner</h5>
+<p class="fw-bold fs-5 text-danger">₹249</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://5.imimg.com/data5/SELLER/Default/2025/12/571197481/KW/PS/LB/62608077/makeze-compact-powder-1000x1000.jpg"
+class="card-img-top" alt="compact power">  
+<div class="card-body text-center">
+<h5>Compact Powder</h5>
+<p class="fw-bold fs-5 text-danger">₹399</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://www.sotrue.in/cdn/shop/files/01_4d8982c5-510a-4955-8a84-8120184cc312.jpg?v=1770280818&width=1080"
+class="card-img-top" alt="kajal">
+<div class="card-body text-center">
+<h5>Kajal</h5>
+<p class="fw-bold fs-5 text-danger">₹199</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://m.media-amazon.com/images/I/61TooMBmaiL._SL1500_.jpg"
+class="card-img-top" alt="blush">   
+<div class="card-body text-center">
+<h5>Blush</h5>
+<p class="fw-bold fs-5 text-danger">₹349</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://i5.walmartimages.com/seo/Missha-M-Perfect-Cover-Serum-BB-Cream-25-Warm-Beige-35ML_704374a6-5803-4a6a-9527-056862e9568a.12ea54837812051607acc996b9bc1f96.png?odnHeight=573&odnWidth=573&odnBg=FFFFFF"
+class="card-img-top" alt="bb creeam"> 
+<div class="card-body text-center">
+<h5>BB cream</h5>
+<p class="fw-bold fs-5 text-danger">₹450</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://img.freepik.com/premium-photo/black-mascara-stroke-isolated-white-background_144356-8169.jpg"
+class="card-img-top" alt="mascara"> 
+<div class="card-body text-center">
+<h5>Mascara</h5>
+<p class="fw-bold fs-5 text-danger">₹399</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://www.facescanada.com/cdn/shop/files/1_58_2c595dc3-40f9-46da-bd0b-2ded5d53a227_900x.jpg?v=1773822360"
+class="card-img-top" alt="makeup setting spray">  
+<div class="card-body text-center">
+<h5>Makeup Setting Spray</h5>
+<p class="fw-bold fs-5 text-danger">₹559</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+ <img src="https://static.vecteezy.com/system/resources/previews/052/968/219/non_2x/eyeshadow-palette-with-six-vibrant-shades-on-transparent-background-png.png"
+ class="card-img-top" alt="eyeshadow palatte">  
+<div class="card-body text-center">
+<h5>Eyeshadow Palette</h5>
+<p class="fw-bold fs-5 text-danger">₹899</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://media.istockphoto.com/id/2149564224/vector/opened-lip-gloss-tube-decorative-liquid-lipstick-for-woman-product-packaging-cartoon-template.jpg?s=612x612&w=0&k=20&c=_jtYiVn7tGmoLqH6wb2jyeF84_9hcxvBuLDJ7FoNCdI="
+class="card-img-top" alt="llip gloss">  
+<div class="card-body text-center">
+<h5>Lip Gloss</h5>
+<p class="fw-bold fs-5 text-danger">₹299</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://m.media-amazon.com/images/I/51gXImk2ZhL._AC_UF1000,1000_QL80_.jpg"
+class="card-img-top" alt="lip liner">  
+<div class="card-body text-center">
+<h5>Lip Liner</h5>
+<p class="fw-bold fs-5 text-danger">₹200</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+<!-- Skincare Products -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+🧴 Skincare Products
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://m.media-amazon.com/images/I/6176ubKwKSL._SL1500_.jpg" class="card-img-top" alt="face wash">
+<div class="card-body text-center">
+<h5>Face Wash</h5>
+<p class="fw-bold fs-5 text-danger">₹299</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://tse4.mm.bing.net/th/id/OIP.HQRFmLo97nBgpr55scVFjQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="cleanser">
+<div class="card-body text-center">
+<h5>Cleanser</h5>
+<p class="fw-bold fs-5 text-danger">₹499</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://images.apollo247.in/pub/media/catalog/product/p/l/plu0093_1.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Toner</h5>
+<p class="fw-bold fs-5 text-danger">₹394</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://img.drz.lazcdn.com/static/lk/p/6bef700b1987e2a75124d3070e34e10b.jpg_720x720q80.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Moisturizer</h5>
+<p class="fw-bold fs-5 text-danger">₹499</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://tse3.mm.bing.net/th/id/OIP.ozxxBcAfMuGpCJ0wgMmLVgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top">
+<div class="card-body text-center">
+<h5>Face Serum</h5>
+<p class="fw-bold fs-5 text-danger">₹699</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://glowellabd.com/wp-content/uploads/2025/03/RxTTn5O0PToL56vkqZcgRX5gougWpwkBiAXr1sUV.png" class="card-img-top">
+<div class="card-body text-center">
+<h5>Sunscreen</h5>
+<p class="fw-bold fs-5 text-danger">₹799</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://i.pinimg.com/736x/58/01/71/58017133d21ca47c217fdea3f521586f.jpg" class="card-img-top" alt="face wash">
+<div class="card-body text-center">
+<h5>Face Mask</h5>
+<p class="fw-bold fs-5 text-danger">₹349</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://imgix.bustle.com/uploads/image/2017/7/13/37d01c46-bc74-468f-be42-d9a836f18a8a-eye.jpg?w=646&fit=max&auto=format&q=70" class="card-img-top" alt="under eye cream">
+<div class="card-body text-center">
+<h5>Under Eye Cream</h5>
+<p class="fw-bold fs-5 text-danger">₹260</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://cdn.grofers.com/da/cms-assets/cms/product/b9d8a842-0e78-4cf6-a675-f57972bada2d.jpg?ts=1743143752" class="card-img-top">
+<div class="card-body text-center">
+<h5>Lip Balm</h5>
+<p class="fw-bold fs-5 text-danger">₹300</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+<!-- Perfume & Fragrance -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+🌸 Perfume & Fragrance
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://cdn.shopify.com/s/files/1/2978/5842/products/perfume-viva-la-juicy-for-women-by-juicy-couture-eau-de-parfum-spray-2.jpg?v=1546635809"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Floral Perfume</h5>
+<p class="fw-bold fs-5 text-danger">₹599</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://th.bing.com/th/id/OIP.hZBbjVlrE7lU4R4ztzNN2AHaE8?w=280&h=187&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Rose Perfume</h5>
+<p class="fw-bold fs-5 text-danger">₹899</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://img.freepik.com/premium-photo/magnificent-vanilla-bean-roll-perfume-isolated-white-background_787273-86994.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Vanilla Perfume</h5>
+<p class="fw-bold fs-5 text-danger">₹999</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://tse1.mm.bing.net/th/id/OIP.FDYbAKStChWvlbm_v1v_ugHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Body Mist</h5>
+<p class="fw-bold fs-5 text-danger">₹499</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://img.freepik.com/premium-psd/luxury-perfume-psd-white-background_1011097-17374.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Luxury Perfume</h5>
+<p class="fw-bold fs-5 text-danger">₹1499</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://thumbs.dreamstime.com/b/men-s-perfume-beautiful-bottle-isolated-white-background-men-s-perfume-beautiful-bottle-isolated-white-background-105482489.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Fresh Aqua Perfume</h5>
+<p class="fw-bold fs-5 text-danger">₹699</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+<!-- Nail Care -->
+
+<section class="py-5 bg-pink">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+💅 Nail Care
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://wallpaperaccess.com/full/2133422.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Nail Polish</h5>
+<p class="fw-bold fs-5 text-danger">₹299</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://m.media-amazon.com/images/I/71E1yB2JOLL.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Nail Remover</h5>
+<p class="fw-bold fs-5 text-danger">₹149</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://tse3.mm.bing.net/th/id/OIP.xncx7ouZkb79krVT1cDHYgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Nail Buffer</h5>
+<p class="fw-bold fs-5 text-danger">₹199</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- Bath & Body Care -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+🛁 Bath & Body Care
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://th.bing.com/th/id/R.3fdba76bfef99025221d679480eaa91e?rik=3vFsuvez%2fscl6Q&riu=http%3a%2f%2fsprings.com.pk%2fcdn%2fshop%2ffiles%2f8961014264210.gif%3fv%3d1747837066&ehk=og3wrRzDQDCtap80CYHs3SLPB6eQFBdYp%2bw5MIlx9tE%3d&risl=&pid=ImgRaw&r=0"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Body Wash</h5>
+<p class="fw-bold fs-5 text-danger">₹299</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://5.imimg.com/data5/SELLER/Default/2021/7/IA/RJ/WW/3699726/nivea-deep-moisture-serum-500x500.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Body Lotion</h5>
+<p class="fw-bold fs-5 text-danger">₹299</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://enchanteur.in/cdn/shop/products/Ench_2000x2000pxl_Rom_Cha_Shower-gel_FOP.jpg?v=1662112943&width=1445"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Shower Gel</h5>
+<p class="fw-bold fs-5 text-danger">₹349</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://img.freepik.com/premium-photo/beautiful-cherry-blossom-scented-body-butter-isolated-white-background_787273-55998.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Body Butter</h5>
+<p class="fw-bold fs-5 text-danger">₹599</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://m.media-amazon.com/images/I/61FbvHn0W4L._SL1500_.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Hand Cream</h5>
+<p class="fw-bold fs-5 text-danger">₹249</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://tse4.mm.bing.net/th/id/OIP.EkmTGnk89jcOZxl6NdlVVgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Foot Cream</h5>
+<p class="fw-bold fs-5 text-danger">₹299</p>
+<button class="btn btn-pink mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+</section>
+<!-- New Arrivals -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+🆕 New Arrivals
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://m.media-amazon.com/images/I/71y6fqzeRtL._SL1500_.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Vitamin C Serum</h5>
+<p class="fw-bold fs-5 text-danger">₹799</p>
+<button class="btn btn-pink mt-2">New Launch</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://www.instyle.com/thmb/w1XrAGetTd5DdcYH4jyhCLFRyYc=/fit-in/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/it-cosmetics-superhero-volumizing-waterproof-mascara-05f4df21730543f78ad6f1181a770c91.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Waterproof Mascara</h5>
+<p class="fw-bold fs-5 text-danger">₹499</p>
+<button class="btn btn-pink mt-2">New Launch</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://d1ezz7hubc5ho5.cloudfront.net/wp-content/uploads/2025/10/E29CA8-MOOYAM-Real-Capsule-Face-Mask-Set-E29CA8-edited.webp"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Korean Face Mask</h5>
+<p class="fw-bold fs-5 text-danger">₹299</p>
+<button class="btn btn-pink mt-2">New Launch</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://exquisiteperfumes.co.ke/wp-content/uploads/2022/08/ROSE-BODY-MIST.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Rose Body Mist</h5>
+<p class="fw-bold fs-5 text-danger">₹599</p>
+<button class="btn btn-pink mt-2">New Launch</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://i.pinimg.com/736x/67/86/aa/6786aa4fd7971ed313d0f42c6473f9ad.jpg"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Gel Nail Polish</h5>
+<p class="fw-bold fs-5 text-danger">₹249</p>
+<button class="btn btn-pink mt-2">New Launch</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card product-card shadow">
+<img src="https://tse4.mm.bing.net/th/id/OIP.kxsiQ10-yo8N0jgBDzdu6QHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+class="card-img-top">
+<div class="card-body text-center">
+<h5>Aloe Vera Body Wash</h5>
+<p class="fw-bold fs-5 text-danger">₹349</p>
+<button class="btn btn-pink mt-2">New Launch</button>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- Special Offers -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+🎁 Special Offers
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card shadow border-0 text-center p-4">
+<h3>🛍️ Buy 1 Get 1 Free</h3>
+<p>On selected makeup products.</p>
+<button class="btn btn-pink">Shop Now</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow border-0 text-center p-4">
+<h3>💄 20% OFF</h3>
+<p>All skincare products this week.</p>
+<button class="btn btn-pink">Grab Offer</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow border-0 text-center p-4">
+<h3>🚚 Free Shipping</h3>
+<p>Orders above ₹999.</p>
+<button class="btn btn-pink">Order Now</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow border-0 text-center p-4">
+<h3>🎉 Festival Sale</h3>
+<p>Flat 30% OFF on selected products.</p>
+<button class="btn btn-pink">Shop Now</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow border-0 text-center p-4">
+<h3>✨ Combo Pack</h3>
+<p>Buy skincare combo & save more.</p>
+<button class="btn btn-pink">View Combo</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow border-0 text-center p-4">
+<h3>🎊 First Order Offer</h3>
+<p>Get ₹100 OFF on your first order.</p>
+<button class="btn btn-pink">Claim Now</button>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- Customer Reviews -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+⭐ Customer Reviews
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card shadow p-4 text-center">
+<h5>Priya S.</h5>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Amazing lipstick collection and long-lasting quality!"</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-4 text-center">
+<h5>Meena R.</h5>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Best skincare products. My skin feels so fresh."</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-4 text-center">
+<h5>Divya K.</h5>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Fast delivery and premium packaging."</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-4 text-center">
+<h5>Anitha P.</h5>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"The perfume fragrance lasts all day."</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-4 text-center">
+<h5>Kavya M.</h5>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Loved the body care products. Highly recommended."</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-4 text-center">
+<h5>Shalini T.</h5>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Worth every rupee. Excellent quality."</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- FAQ -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+❓ Frequently Asked Questions
+</h2>
+
+<div class="accordion" id="faq">
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1">
+Do you offer free shipping?
+</button>
+</h2>
+<div id="q1" class="accordion-collapse collapse show">
+<div class="accordion-body">
+Yes, free shipping on orders above ₹999.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q2">
+Are your products cruelty-free?
+</button>
+</h2>
+<div id="q2" class="accordion-collapse collapse">
+<div class="accordion-body">
+Yes, all our products are cruelty-free.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q3">
+How long does delivery take?
+</button>
+</h2>
+<div id="q3" class="accordion-collapse collapse">
+<div class="accordion-body">
+Delivery usually takes 3-7 business days.
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Contact -->
+
+<section id="contact" class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="text-center mb-4">
+Contact Us
+</h2>
+
+<form class="w-50 mx-auto">
+
+<input type="text"
+class="form-control mb-3"
+placeholder="Your Name">
+
+<input type="email"
+class="form-control mb-3"
+placeholder="Your Email">
+
+<textarea class="form-control mb-3"
+rows="5"
+placeholder="Your Message"></textarea>
+
+<button class="btn btn-pink w-100">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="text-center">
+
+<h4>Glow Beauty Cosmetics</h4>
+
+<p>Beauty • Makeup • Skincare</p>
+
+<p>Email: glowbeauty@gmail.com</p>
+
+<p>Phone: +91 9876543210</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```
